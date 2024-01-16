@@ -1,3 +1,54 @@
+body {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(234, 249, 249, 0.67) 0.1%,
+    rgba(239, 249, 251, 0.63) 90.1%
+  );
+}
+.whole-page {
+  background-color: #d2efff;
+  margin: 120px 300px;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+header {
+  border-bottom: 1px solid rgb(162, 162, 248);
+  padding: 30px 0;
+}
+main {
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.input-form {
+  background-color: #d6e9f4;
+  color: #585859;
+  border-color: rgb(187, 187, 255);
+  font-size: 18px;
+  padding: 5px 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+.submit-button {
+  background-color: #d6e9f4;
+  color: #585859;
+  border-color: rgb(187, 187, 255);
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-left: 3px;
+  width: 100px;
+}
 h1 {
-  color: red;
+  color: #f9bfa0;
+  margin-bottom: 3px;
+}
+footer {
+  border-top: 1px solid rgb(162, 162, 248);
+  padding: 20px 0;
 }

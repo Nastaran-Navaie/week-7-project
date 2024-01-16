@@ -3,25 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono&family=Marko+One&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather forecast</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="text" placeholder="Enter a city ..." />
-        <input type="submit" />
-      </form>
-    </header>
-    <main>
-      <h1>Vancouver</h1>
-      <p>Tuesday 21:11, clear sky Humidity: 73%, Wind: 3.09km/h</p>
-      <p>0 °C</p>
-    </main>
-    <footer>
-      This project was coded by Nastaran Navaie, is open-sourced on GitHub and
-      hosted on Render
-    </footer>
+    <div class="whole-page">
+      <header>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a city ..."
+            class="input-form"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+      </header>
+      <main>
+        <h1>Vancouver</h1>
+        <div class="Weather-app-data">
+          <p>
+            Tuesday 21:11, clear sky <br />
+            Humidity: 73%, Wind: 3.09km/h
+          </p>
+          🌧 12 °C
+        </div>
+      </main>
+      <footer>
+        This project was coded by Nastaran Navaie, is open-sourced on GitHub and
+        hosted on Render
+      </footer>
+    </div>
   </body>
   <script src="src/script.js"></script>
 </html>
