@@ -63,6 +63,9 @@ p {
   font-size: 60px;
   margin: 40px 30px;
 }
+.emoji {
+  margin-top: -10px;
+}
 .temp-number {
   margin-left: 5px;
 }
