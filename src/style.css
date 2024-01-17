@@ -10,7 +10,7 @@ body {
 }
 .whole-page {
   background-color: #e5f0f6;
-  margin: 120px 300px;
+  margin: 120px 350px;
   padding: 20px 30px;
   border-radius: 15px;
 }
@@ -44,15 +44,41 @@ main {
   font-size: 30px;
 }
 h1 {
-  color: #f9bfa0;
+  color: #365cf3;
   margin-bottom: 3px;
 }
 .weather-app-data {
   display: flex;
   justify-content: space-between;
 }
-
+.left-side-data {
+  margin-left: 15px;
+}
+p {
+  font-size: 25px;
+}
+.weather-data {
+  display: flex;
+  font-size: 60px;
+  margin: 40px 30px;
+}
+.temp-number {
+  margin-left: 5px;
+}
+.temp-unit {
+  font-size: 25px;
+  margin: 10px;
+}
+.humidity-number,
+.wind-number {
+  color: #365cf3;
+}
 footer {
+  text-align: center;
+  color: rgb(128, 128, 128);
   border-top: 1px solid rgb(162, 162, 248);
   padding: 20px 0;
+}
+a {
+  color: #7cc6f4;
 }
